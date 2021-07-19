@@ -1,4 +1,7 @@
 /* Footer-Css */
+footer{
+    font-weight: 500;
+}
 .footer-bg{
     background: #000;
     color: white;
