@@ -21,7 +21,7 @@
 <body>
     <header class="pt-3">
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <div class="container-fluid">
+            <div class="container">
                 <a class="navbar-brand ms-5" href="#">
                     <img src="images/logo/logo-crona-new.png" alt="" width="92" height="27">
                 </a>
@@ -53,10 +53,15 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="right-side d-flex align-items-center me-5">
+                    <div class="right-side d-flex align-items-center justify-content-center">
                         <i class="fas fa-bars"></i>
                         <i class="fas fa-search"></i>
-                        <i class="fas fa-shopping-bag"></i>
+                        <span class="position-relative">
+                            <i class="fas fa-shopping-bag"></i>
+                            <span
+                                class="position-absolute top-0 start-50 translate-middle p-2 border border-light rounded-circle">
+                                (0)</span>
+                        </span>
                     </div>
                 </div>
             </div>
