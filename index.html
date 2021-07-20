@@ -6,29 +6,476 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- fontawesome cdn link -->
+    <script src="https://kit.fontawesome.com/77aca5142f.js" crossorigin="anonymous"></script>
+    <!-- add custom stylesheet -->
+    <link rel="stylesheet" href="./productsMenu.css">
 </head>
 
 <body>
-<<<<<<< HEAD
-    <h1>Please don't mind just check it out!</h1>
+
+    <!-- Products section start -->
+
+    <section class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <nav class="navbar navbar-expand-lg navbar-light ">
+                        <div class="container">
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                                aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                    <li class="nav-item">
+                                        <a class="nav-link border active" aria-current="page" href="#">Clothing</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Shoes</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Bags</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Jewellery</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Beauty</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Watchs</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Others </a>
+                                    </li>
 
 
+                                </ul>
 
-    <p>some text</p>
-    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. A officiis dolore numquam dolorem ea dolores ducimus
-        aliquam id amet rem voluptates adipisci officia, ad alias aperiam, nisi deserunt qui quisquam. Lorem ipsum dolor
-        sit amet consectetur adipisicing elit. Neque ipsum officiis, ex mollitia eius soluta quisquam at id! Voluptas
-        accusantium, itaque modi amet voluptates rem placeat iusto sit fugiat unde. Lorem ipsum dolor sit amet
-        consectetur, adipisicing elit. Dicta, aut fugiat? Laborum, corporis iusto? Cupiditate itaque inventore impedit
-        adipisci molestiae, ex assumenda velit doloremque, expedita laudantium at quibusdam. Inventore, quae?</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus repellendus vero iusto quasi ipsam quo maxime
-        libero assumenda ratione? Impedit adipisci tenetur provident cum facere, suscipit vero eius. Corporis, quo.</p>
-    <h5>Every thing up to date for test</h5>
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga distinctio ducimus nihil facilis provident magni
-        eos expedita veritatis, quidem illo in molestias omnis, ullam modi sequi perferendis itaque excepturi fugit?</p>
-=======
-    <h1>there is nothing to do</h1>
->>>>>>> 6d1dd4ed07b059915995ac23de5f2c34c51a05f6
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+            <div class="row mt-4 gy-3 row-cols-lg-4  row-cols-md-3 row-cols-sm-2 row-cols-1 ">
+                <div class="col">
+                    <div class="card product border-0 ">
+                        <div class="position-relative">
+                            <div class="product_img">
+                                <img src="./productImages/product-1.jpg" alt="" class="card-img-top ">
+                            </div>
+                            <div class="product_icons position-absolute d-flex justify-content-center w-100">
+                                <a class="text-decoration-none text-secondary py-1 pe-2 ps-3 bg-white" href=""><i
+                                        class="fas fa-shopping-cart"></i></a>
+                                <a class="text-decoration-none text-secondary py-1 px-2 bg-white" href=""><i
+                                        class="fas fa-heart"></i></a>
+                                <a class="text-decoration-none text-secondary py-1 px-2 bg-white" href=""><i
+                                        class="fas fa-eye"></i></a>
+                                <a class="text-decoration-none text-secondary py-1 ps-2 pe-3 bg-white" href=""><i
+                                        class="fas fa-sync-alt"></i></a>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <div class="card-title text-center">
+                                <a class="text-decoration-none text-secondary" href="#">ACCIDENT SUMITI</a>
+                            </div>
+                            <div class="rating text-center">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                            <div class="price text-secondary mt-2 text-center">
+                                $30.00
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card product border-0 ">
+                        <div class="position-relative">
+                            <div class="product_img">
+                                <img src="./productImages/product-2.jpg" alt="" class="card-img-top ">
+                            </div>
+                            <div class="product_icons position-absolute d-flex justify-content-center w-100">
+                                <a class="text-decoration-none text-secondary py-1 pe-2 ps-3 bg-white" href=""><i
+                                        class="fas fa-shopping-cart"></i></a>
+                                <a class="text-decoration-none text-secondary py-1 px-2 bg-white" href=""><i
+                                        class="fas fa-heart"></i></a>
+                                <a class="text-decoration-none text-secondary py-1 px-2 bg-white" href=""><i
+                                        class="fas fa-eye"></i></a>
+                                <a class="text-decoration-none text-secondary py-1 ps-2 pe-3 bg-white" href=""><i
+                                        class="fas fa-sync-alt"></i></a>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <div class="card-title text-center">
+                                <a class="text-decoration-none text-secondary" href="#">ACCIDENT SUMITI</a>
+                            </div>
+                            <div class="rating text-center">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                            <div class="price text-secondary mt-2 text-center">
+                                $30.00
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card product border-0 ">
+                        <div class="position-relative">
+                            <div class="product_img">
+                                <img src="./productImages/product-3.jpg" alt="" class="card-img-top ">
+                            </div>
+                            <div class="product_icons position-absolute d-flex justify-content-center w-100">
+                                <a class="text-decoration-none text-secondary py-1 pe-2 ps-3 bg-white" href=""><i
+                                        class="fas fa-shopping-cart"></i></a>
+                                <a class="text-decoration-none text-secondary py-1 px-2 bg-white" href=""><i
+                                        class="fas fa-heart"></i></a>
+                                <a class="text-decoration-none text-secondary py-1 px-2 bg-white" href=""><i
+                                        class="fas fa-eye"></i></a>
+                                <a class="text-decoration-none text-secondary py-1 ps-2 pe-3 bg-white" href=""><i
+                                        class="fas fa-sync-alt"></i></a>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <div class="card-title text-center">
+                                <a class="text-decoration-none text-secondary" href="#">ACCIDENT SUMITI</a>
+                            </div>
+                            <div class="rating text-center">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                            <div class="price text-secondary mt-2 text-center">
+                                $30.00
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card product border-0 ">
+                        <div class="position-relative">
+                            <div class="product_img">
+                                <img src="./productImages/product-4.jpg" alt="" class="card-img-top ">
+                            </div>
+                            <div class="product_icons position-absolute d-flex justify-content-center w-100">
+                                <a class="text-decoration-none text-secondary py-1 pe-2 ps-3 bg-white" href=""><i
+                                        class="fas fa-shopping-cart"></i></a>
+                                <a class="text-decoration-none text-secondary py-1 px-2 bg-white" href=""><i
+                                        class="fas fa-heart"></i></a>
+                                <a class="text-decoration-none text-secondary py-1 px-2 bg-white" href=""><i
+                                        class="fas fa-eye"></i></a>
+                                <a class="text-decoration-none text-secondary py-1 ps-2 pe-3 bg-white" href=""><i
+                                        class="fas fa-sync-alt"></i></a>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <div class="card-title text-center">
+                                <a class="text-decoration-none text-secondary" href="#">ACCIDENT SUMITI</a>
+                            </div>
+                            <div class="rating text-center">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                            <div class="price text-secondary mt-2 text-center">
+                                $30.00
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card product border-0 ">
+                        <div class="position-relative">
+                            <div class="product_img">
+                                <img src="./productImages/product-5.jpg" alt="" class="card-img-top ">
+                            </div>
+                            <div class="product_icons position-absolute d-flex justify-content-center w-100">
+                                <a class="text-decoration-none text-secondary py-1 pe-2 ps-3 bg-white" href=""><i
+                                        class="fas fa-shopping-cart"></i></a>
+                                <a class="text-decoration-none text-secondary py-1 px-2 bg-white" href=""><i
+                                        class="fas fa-heart"></i></a>
+                                <a class="text-decoration-none text-secondary py-1 px-2 bg-white" href=""><i
+                                        class="fas fa-eye"></i></a>
+                                <a class="text-decoration-none text-secondary py-1 ps-2 pe-3 bg-white" href=""><i
+                                        class="fas fa-sync-alt"></i></a>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <div class="card-title text-center">
+                                <a class="text-decoration-none text-secondary" href="#">ACCIDENT SUMITI</a>
+                            </div>
+                            <div class="rating text-center">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                            <div class="price text-secondary mt-2 text-center">
+                                $30.00
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card product border-0 ">
+                        <div class="position-relative">
+                            <div class="product_img">
+                                <img src="./productImages/product-6.jpg" alt="" class="card-img-top ">
+                            </div>
+                            <div class="product_icons position-absolute d-flex justify-content-center w-100">
+                                <a class="text-decoration-none text-secondary py-1 pe-2 ps-3 bg-white" href=""><i
+                                        class="fas fa-shopping-cart"></i></a>
+                                <a class="text-decoration-none text-secondary py-1 px-2 bg-white" href=""><i
+                                        class="fas fa-heart"></i></a>
+                                <a class="text-decoration-none text-secondary py-1 px-2 bg-white" href=""><i
+                                        class="fas fa-eye"></i></a>
+                                <a class="text-decoration-none text-secondary py-1 ps-2 pe-3 bg-white" href=""><i
+                                        class="fas fa-sync-alt"></i></a>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <div class="card-title text-center">
+                                <a class="text-decoration-none text-secondary" href="#">ACCIDENT SUMITI</a>
+                            </div>
+                            <div class="rating text-center">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                            <div class="price text-secondary mt-2 text-center">
+                                $30.00
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card product border-0 ">
+                        <div class="position-relative">
+                            <div class="product_img">
+                                <img src="./productImages/product-7.jpg" alt="" class="card-img-top ">
+                            </div>
+                            <div class="product_icons position-absolute d-flex justify-content-center w-100">
+                                <a class="text-decoration-none text-secondary py-1 pe-2 ps-3 bg-white" href=""><i
+                                        class="fas fa-shopping-cart"></i></a>
+                                <a class="text-decoration-none text-secondary py-1 px-2 bg-white" href=""><i
+                                        class="fas fa-heart"></i></a>
+                                <a class="text-decoration-none text-secondary py-1 px-2 bg-white" href=""><i
+                                        class="fas fa-eye"></i></a>
+                                <a class="text-decoration-none text-secondary py-1 ps-2 pe-3 bg-white" href=""><i
+                                        class="fas fa-sync-alt"></i></a>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <div class="card-title text-center">
+                                <a class="text-decoration-none text-secondary" href="#">ACCIDENT SUMITI</a>
+                            </div>
+                            <div class="rating text-center">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                            <div class="price text-secondary mt-2 text-center">
+                                $30.00
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card product border-0 ">
+                        <div class="position-relative">
+                            <div class="product_img">
+                                <img src="./productImages/product-8.jpg" alt="" class="card-img-top ">
+                            </div>
+                            <div class="product_icons position-absolute d-flex justify-content-center w-100">
+                                <a class="text-decoration-none text-secondary py-1 pe-2 ps-3 bg-white" href=""><i
+                                        class="fas fa-shopping-cart"></i></a>
+                                <a class="text-decoration-none text-secondary py-1 px-2 bg-white" href=""><i
+                                        class="fas fa-heart"></i></a>
+                                <a class="text-decoration-none text-secondary py-1 px-2 bg-white" href=""><i
+                                        class="fas fa-eye"></i></a>
+                                <a class="text-decoration-none text-secondary py-1 ps-2 pe-3 bg-white" href=""><i
+                                        class="fas fa-sync-alt"></i></a>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <div class="card-title text-center">
+                                <a class="text-decoration-none text-secondary" href="#">ACCIDENT SUMITI</a>
+                            </div>
+                            <div class="rating text-center">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                            <div class="price text-secondary mt-2 text-center">
+                                $30.00
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card product border-0 ">
+                        <div class="position-relative">
+                            <div class="product_img">
+                                <img src="./productImages/product-9.jpg" alt="" class="card-img-top ">
+                            </div>
+                            <div class="product_icons position-absolute d-flex justify-content-center w-100">
+                                <a class="text-decoration-none text-secondary py-1 pe-2 ps-3 bg-white" href=""><i
+                                        class="fas fa-shopping-cart"></i></a>
+                                <a class="text-decoration-none text-secondary py-1 px-2 bg-white" href=""><i
+                                        class="fas fa-heart"></i></a>
+                                <a class="text-decoration-none text-secondary py-1 px-2 bg-white" href=""><i
+                                        class="fas fa-eye"></i></a>
+                                <a class="text-decoration-none text-secondary py-1 ps-2 pe-3 bg-white" href=""><i
+                                        class="fas fa-sync-alt"></i></a>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <div class="card-title text-center">
+                                <a class="text-decoration-none text-secondary" href="#">ACCIDENT SUMITI</a>
+                            </div>
+                            <div class="rating text-center">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                            <div class="price text-secondary mt-2 text-center">
+                                $30.00
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card product border-0 ">
+                        <div class="position-relative">
+                            <div class="product_img">
+                                <img src="./productImages/product-10.jpg" alt="" class="card-img-top ">
+                            </div>
+                            <div class="product_icons position-absolute d-flex justify-content-center w-100">
+                                <a class="text-decoration-none text-secondary py-1 pe-2 ps-3 bg-white" href=""><i
+                                        class="fas fa-shopping-cart"></i></a>
+                                <a class="text-decoration-none text-secondary py-1 px-2 bg-white" href=""><i
+                                        class="fas fa-heart"></i></a>
+                                <a class="text-decoration-none text-secondary py-1 px-2 bg-white" href=""><i
+                                        class="fas fa-eye"></i></a>
+                                <a class="text-decoration-none text-secondary py-1 ps-2 pe-3 bg-white" href=""><i
+                                        class="fas fa-sync-alt"></i></a>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <div class="card-title text-center">
+                                <a class="text-decoration-none text-secondary" href="#">ACCIDENT SUMITI</a>
+                            </div>
+                            <div class="rating text-center">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                            <div class="price text-secondary mt-2 text-center">
+                                $30.00
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card product border-0 ">
+                        <div class="position-relative">
+                            <div class="product_img">
+                                <img src="./productImages/product-11.jpg" alt="" class="card-img-top ">
+                            </div>
+                            <div class="product_icons position-absolute d-flex justify-content-center w-100">
+                                <a class="text-decoration-none text-secondary py-1 pe-2 ps-3 bg-white" href=""><i
+                                        class="fas fa-shopping-cart"></i></a>
+                                <a class="text-decoration-none text-secondary py-1 px-2 bg-white" href=""><i
+                                        class="fas fa-heart"></i></a>
+                                <a class="text-decoration-none text-secondary py-1 px-2 bg-white" href=""><i
+                                        class="fas fa-eye"></i></a>
+                                <a class="text-decoration-none text-secondary py-1 ps-2 pe-3 bg-white" href=""><i
+                                        class="fas fa-sync-alt"></i></a>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <div class="card-title text-center">
+                                <a class="text-decoration-none text-secondary" href="#">ACCIDENT SUMITI</a>
+                            </div>
+                            <div class="rating text-center">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                            <div class="price text-secondary mt-2 text-center">
+                                $30.00
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card product border-0 ">
+                        <div class="position-relative">
+                            <div class="product_img">
+                                <img src="./productImages/product-12.jpg" alt="" class="card-img-top ">
+                            </div>
+                            <div class="product_icons position-absolute d-flex justify-content-center w-100">
+                                <a class="text-decoration-none text-secondary py-1 pe-2 ps-3 bg-white" href=""><i
+                                        class="fas fa-shopping-cart"></i></a>
+                                <a class="text-decoration-none text-secondary py-1 px-2 bg-white" href=""><i
+                                        class="fas fa-heart"></i></a>
+                                <a class="text-decoration-none text-secondary py-1 px-2 bg-white" href=""><i
+                                        class="fas fa-eye"></i></a>
+                                <a class="text-decoration-none text-secondary py-1 ps-2 pe-3 bg-white" href=""><i
+                                        class="fas fa-sync-alt"></i></a>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <div class="card-title text-center">
+                                <a class="text-decoration-none text-secondary" href="#">ACCIDENT SUMITI</a>
+                            </div>
+                            <div class="rating text-center">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                            <div class="price text-secondary mt-2 text-center">
+                                $30.00
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
 </body>
 
-</html>z
+</html>

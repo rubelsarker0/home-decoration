@@ -1,0 +1,10 @@
+/* product section styles start */
+.product_icons {
+  opacity: 0;
+  top: 45%;
+  transition: 0.3s;
+}
+.product:hover .product_icons {
+  opacity: 1;
+}
+/* product section styles end */
