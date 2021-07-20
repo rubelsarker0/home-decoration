@@ -3,3 +3,17 @@
 * {
 	font-family: 'Dosis', sans-serif;
 }
+
+.navbar {
+	background-color: #ffffff81 !important;
+}
+
+.navbar-nav li a {
+	margin: 10px;
+	font-size: 20px;
+}
+
+.right-side i {
+	padding-right: 25px;
+	color: gray;
+}
