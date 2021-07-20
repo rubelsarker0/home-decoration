@@ -1,0 +1,13 @@
+/* =============== 
+    importing fonts
+================== */
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600&display=swap');
+
+
+/* ===============
+    hero area
+================== */
+.hero-area {
+    background: #fff;
+  
+}
