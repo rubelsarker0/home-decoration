@@ -1,44 +1,52 @@
 /* Footer-Css */
-footer{
-    font-weight: 500;
+footer {
+	font-weight: 500;
 }
-.footer-bg{
-    background: #000;
-    color: white;
+.footer-bg {
+	background: #000;
+	color: white;
 }
 .footer-bg ul li {
-    list-style: none;
+	list-style: none;
 }
-.footer-bg strong{
-    color: white;
+.footer-bg strong {
+	color: white;
 }
-.footer-bg ul li a, .footer-bg p, a{
-    color: #54595f;
-    text-decoration: none;
-    transition: .4s;
+.footer-bg ul li a,
+.footer-bg p,
+a {
+	color: #54595f;
+	text-decoration: none;
+	transition: 0.4s;
 }
-.footer-bg ul li a:hover, .footer-bg a:hover{
-    color: white;
+.footer-bg ul li a:hover,
+.footer-bg a:hover {
+	color: white;
 }
-.footer-img img{
-    transition: .5s;
+.footer-img img {
+	transition: 0.5s;
 }
-.footer-img img:hover{
-    transform: scale(1.1);
+.footer-img img:hover {
+	transform: scale(1.1);
 }
-footer ul{
-    padding-left: 0;
-    margin-bottom: 50px;
+footer ul {
+	padding-left: 0;
+	margin-bottom: 50px;
 }
-
+.contributors a i {
+	margin-right: 10px;
+}
+.contributors a:hover i {
+	color: orange;
+}
 
 /* Media For 992 */
-@media only screen and (max-width: 992px){
-    footer{
-        text-align: center;
-        /* margin-bottom: 40px; */
-    }
-    .corna{
-        margin-bottom: 40px;
-    }
+@media only screen and (max-width: 992px) {
+	footer {
+		text-align: center;
+		/* margin-bottom: 40px; */
+	}
+	.corna {
+		margin-bottom: 40px;
+	}
 }
